@@ -67,6 +67,7 @@
         margin: 0;
         border: 0;
         text-decoration: none;
+        /* border: 1px solid black; */
     }
 
     /* remember to define focus styles! */
@@ -162,17 +163,54 @@ h1, h2, h3, h4, a ,p{
     }
 
     header .content a {
-        border: 1px solid black;
         font-size: 1.5rem;
         padding: 10px 20px;
         border-radius: 10px;
+        background-color: #efefefef;
     }
 
     /* Features Section */
 
+.feature {
+    margin: 5% 0;
+}
 
 .feature h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
+.feature .box-containers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    line-height: 50px;
+}
+
+.feature .box-containers .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 50vh;
+    text-align: center;
+    background-color: #efefefef;
+    border: 1px solid black;
+    border-radius: 70px;
+}
+
+.feature .box-containers .box img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.feature .box-containers .box h3 {
+    font-size: 2.5rem;
+}
+
+.feature .box-containers .box p {
+    font-size: 1.8rem;
+}
+
+/* Customer Reviews Section */
