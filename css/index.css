@@ -141,7 +141,6 @@
 
     header nav a {
         color: white;
-        font-weight: 600;
         font-size: 1.4rem;
         margin-right: 1%;
         padding-right: 3%;
@@ -311,7 +310,7 @@
     /* Footer */
 
     footer nav {
-        background-color: #586369;
+        background-color: #353b3e6c;
         width: 100%;
         height: 6vh;
         display: flex;
