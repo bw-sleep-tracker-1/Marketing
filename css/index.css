@@ -67,7 +67,6 @@
         margin: 0;
         border: 0;
         text-decoration: none;
-        /* border: 1px solid black; */
     }
 
     /* remember to define focus styles! */
@@ -116,7 +115,7 @@
 
     body {
         font-family: 'Mulish', sans-serif;
-        background-color: #efefef;
+        background-color: #433971;
     }
 
     header {
@@ -131,10 +130,10 @@
         padding-top: 1%;
         margin-right: 10%;
         width: 100%;
-        /* color: white; */
-        color: #24343b;
+        color: #efefee;
     }
-    
+
+
     header nav span {
         margin-right: 70%;
     }
@@ -144,7 +143,7 @@
         font-size: 1.4rem;
         margin-right: 1%;
         padding-right: 3%;
-        padding-top: 0.7%; 
+        padding-top: 0.7%;
     }
 
     header nav a:last-child {
@@ -171,10 +170,7 @@
         font-weight: 700;
         margin-bottom: 5%;
         line-height: 1.5;
-        /* color: #373F41; */
         color: #efefef;
-        /* color: #1f2427; */
-        /* color: #24343b; */
     }
 
     header .content p {
@@ -183,12 +179,10 @@
         line-height: 2;
         letter-spacing: 0.3px;
         margin-bottom: 7%;
-        /* color: #737B7D; */
         color: #efefef;
     }
 
     header .content a {
-        /* border: 1px solid #BA68C8; */
         font-size: 1.4rem;
         font-weight: bold;
         padding: 2%;
@@ -212,8 +206,7 @@
         font-size: 44px;
         line-height: 56px;
         letter-spacing: 0.2px;
-        /* color: #373F41; */
-        color: #24343b;
+        color: white;
         width: 90%;
         height: 15vh;
         margin-left: 8%;
@@ -235,14 +228,14 @@
         font-size: 1.6rem;
         line-height: 50px;
         letter-spacing: 0.3px;
-        color: #000000;
+        color: white;
     }
 
     .feature .boxes .box p {
         font-size: 1.6rem;
         line-height: 22px;
         letter-spacing: 0.3px;
-        color: #737B7D;
+        color: white;
         width: 70%;
     }
 
@@ -256,7 +249,7 @@
     }
 
     /* Testimonial Section */
-    
+
     .testimonial-boxes {
         margin-bottom: 15%;
     }
@@ -267,7 +260,7 @@
         line-height: 100px;
         text-align: center;
         letter-spacing: 0.1px;
-        color: #373F41;
+        color: white;
     }
 
     .testimonials h3 {
@@ -275,10 +268,10 @@
         line-height: 22px;
         text-align: center;
         letter-spacing: 0.3px;
-        color: #737B7D;
+        color: white;
     }
 
-    .testimonials .testimonial-boxes .tes-box img{
+    .testimonials .testimonial-boxes .tes-box img {
         width: 25%;
         height: 15vh;
         border-radius: 100%;
@@ -292,43 +285,43 @@
         margin-top: 10%;
     }
 
-    .testimonials .testimonial-boxes .tes-box h4{
+    .testimonials .testimonial-boxes .tes-box h4 {
         font-size: 1.8rem;
         font-weight: bold;
         line-height: 54px;
         letter-spacing: 0.1px;
-        color: #373F41;
+        color: white;
     }
 
     .testimonials .testimonial-boxes .tes-box p {
         font-size: 1.4rem;
         line-height: 20px;
         letter-spacing: 0.2px;
-        color: #373F41;
+        color: white;
     }
 
     /* Footer */
 
     footer nav {
-        background-color: #353b3e6c;
-        width: 100%;
+        background-color: #efefef;
+        width: 80%;
         height: 6vh;
         display: flex;
         justify-content: flex-end;
-        margin-top: 30px;
-        margin-right: 5%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     footer nav a {
-        color: white;
+        color: #7B69C9;
         font-weight: 600;
         font-size: 1.4rem;
         padding-right: 2%;
-        padding-top: 1.2%; 
+        padding-top: 1.2%;
     }
 
     footer nav span {
-        margin-right: 30%;
+        margin-right: 77%;
         padding: 0.3%;
         color: #020405;
     }
@@ -341,4 +334,317 @@
 
     footer h2 {
         font-size: 2rem;
+    }
+
+    @media (max-width: 1024px) {
+
+        header {
+            margin-bottom: 20%;
+            height: 60vh;
+        }
+
+        header nav {
+            padding-top: 1.5%;
+        }
+
+
+        header nav span {
+            margin-right: 55%;
+        }
+
+        header nav a {
+            color: white;
+            font-size: 1.4rem;
+            margin-right: 1%;
+            padding-right: 3%;
+            padding-top: 1%;
+        }
+
+        header nav a:last-child {
+            padding: 1%;
+            background-color: #69A7C9;
+            color: white;
+        }
+
+        header img {
+            margin-left: 5%;
+            margin-top: 10%;
+            width: 40%;
+        }
+
+        header .content {
+            float: right;
+            margin-right: 3%;
+            margin-top: 18%;
+            width: 40%;
+        }
+
+        header .content h1 {
+            font-size: 3.5rem;
+        }
+
+        header .content p {
+            font-size: 1.5rem;
+        }
+
+        /* Features Section */
+
+        .feature {
+            margin-bottom: 30%;
+        }
+
+        .feature .content {
+            margin-top: 18%;
+        }
+
+        .feature .title h2 {
+            font-weight: bold;
+            font-size: 3.5rem;
+            line-height: 56px;
+            letter-spacing: 0.2px;
+            color: white;
+            width: 90%;
+            height: 15vh;
+            margin-left: 5%;
+            margin-bottom: 2%;
+        }
+
+        .feature .boxes {
+            width: 50%;
+            margin-left: 5%;
+        }
+
+        .feature .boxes .box h3 {
+            font-size: 1.6rem;
+        }
+
+        .feature .boxes .box p {
+            font-size: 1.3rem;
+            width: 75%;
+        }
+
+        .feature img {
+            bottom: -60%;
+            width: 40%;
+        }
+
+        /* Testimonial Section */
+
+        .testimonial-boxes {
+            margin-bottom: 20%;
+        }
+
+        .testimonials h2 {
+            font-size: 3.5rem;
+
+        }
+
+        .testimonials h3 {
+            font-size: 1.6rem;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.3px;
+            color: white;
+        }
+
+        .testimonials .testimonial-boxes .tes-box {
+            width: 30%;
+        }
+
+        .testimonials .testimonial-boxes .tes-box img {
+            width: 35%;
+        }
+
+        /* Footer */
+
+        footer nav a {
+            padding-top: 2%;
+        }
+
+        footer nav a:last-child {
+            padding: 2%;
+        }
+    }
+
+    @media (max-width: 800px) {
+
+        header {
+            height: 55vh;
+        }
+
+        header nav {
+            padding-top: 1.5%;
+        }
+
+        header nav span {
+            display: none;
+        }
+
+        header img {
+            margin-left: 2%;
+            margin-top: 15%;
+            width: 45%;
+        }
+
+        header .content {
+            width: 45%;
+        }
+
+        header .content h1 {
+            font-size: 2.3rem;
+        }
+
+        header .content p {
+            font-size: 1.2rem;
+        }
+
+        /* Features Section */
+
+        .feature {
+            margin-bottom: 50%;
+        } 
+
+        .feature .title h2 {
+            font-size: 2.3rem;
+        }
+
+        .feature .boxes {
+            width: 80%;
+        }
+
+        .feature .boxes .box h3 {
+            font-size: 1.6rem;
+        }
+
+        .feature .boxes .box p {
+            font-size: 1.2rem;
+        }
+
+        .feature img {
+            bottom: -45%;
+            width: auto;
+            height: 45vh;
+        }
+
+        /* Testimonial Section */
+
+        .testimonial-boxes {
+            margin-bottom: 25%;
+        }
+
+        .testimonials h2 {
+            font-size: 2.3rem;
+        }
+
+        .testimonials h3 {
+            font-size: 1.2rem;
+        }
+
+
+        .testimonials .testimonial-boxes .tes-box {
+            width: auto;
+        }
+
+        .testimonials .testimonial-boxes .tes-box img {
+            width: auto;
+            height: 10vh;
+        }
+
+        .testimonials .testimonial-boxes .tes-box h4 {
+            font-size: 1.5rem;
+            line-height: 30px;
+            margin-bottom:  5%;
+        }
+
+        .testimonials .testimonial-boxes .tes-box p {
+            font-size: 1.2rem;
+            width: 100%;
+        }
+
+        /* Footer */
+
+        footer nav a {
+            font-size: 1.2rem;
+            padding-top: 4%;
+        }
+
+        footer nav a:last-child {
+            font-size: 1.2rem;
+            padding: 4%;
+        }
+}
+
+    @media (max-width: 500px) {
+
+        header {
+            height: 76vh;
+        }
+
+        header nav {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        header nav span {
+            display: none;
+        }
+
+        header img {
+            margin-left: 25%;
+            margin-top: 10%;
+            width: 50%;
+        }
+
+        header .content {
+            margin-top: 10%;
+            width: 80%;
+        }
+
+        header .content h1 {
+            font-size: 2.3rem;
+        }
+
+        header .content p {
+            font-size: 1.2rem;
+        }
+
+        /* Features Section */
+
+        .feature {
+            margin-bottom: 100%;
+        }
+
+        .feature .boxes {
+            margin-top: 10%;
+            width: auto;
+        }
+
+        .feature .boxes .box p {
+            font-size: 1.2rem;
+            width: auto;
+        }
+
+        .feature img {
+            bottom: -68%;
+            width: auto;
+        }
+
+        /* Testimonial Section */
+
+        .testimonial-boxes {
+            flex-direction: column;
+        }
+
+        /* Footer */
+
+        footer nav a {
+            font-size: 1.2rem;
+            padding-top: 5%;
+            padding-left: 8%;
+        }
+
+        footer nav a:last-child {
+            font-size: 1.2rem;
+            padding: 5%;
+        }
     }

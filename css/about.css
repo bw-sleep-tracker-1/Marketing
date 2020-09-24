@@ -1,219 +1,211 @@
   /* Css Reset Starts Here */
-  html,
-  body,
-  div,
-  span,
-  applet,
-  object,
-  iframe,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  tr,
-  th,
-  td,
-  del,
-  dfn,
-  em,
-  font,
-  img,
-  ins,
-  kbd,
-  q,
-  s,
-  samp,
-  small,
-  strike,
-  strong,
-  sub,
-  sup,
-  tt,
-  var,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  blockquote,
-  pre,
-  a,
-  abbr,
-  acronym,
-  address,
-  big,
-  cite,
-  code,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend {
-      vertical-align: baseline;
-      font-family: inherit;
-      font-weight: inherit;
-      font-style: inherit;
-      font-size: 62.5%;
-      outline: 0;
-      padding: 0;
-      margin: 0;
-      border: 0;
-      text-decoration: none;
-      /* border: 1px solid black; */
-  }
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    del,
+    dfn,
+    em,
+    font,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend {
+        vertical-align: baseline;
+        font-family: inherit;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 62.5%;
+        outline: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        text-decoration: none;
+        /* border: 1px solid black; */
+    }
 
-  /* remember to define focus styles! */
-  :focus {
-      outline: 0;
-  }
+    /* remember to define focus styles! */
+    :focus {
+        outline: 0;
+    }
 
-  body {
-      background: white;
-      line-height: 1;
-      color: black;
-  }
+    body {
+        background: white;
+        line-height: 1;
+        color: black;
+    }
 
-  ol,
-  ul {
-      list-style: none;
-  }
+    ol,
+    ul {
+        list-style: none;
+    }
 
-  /* tables still need cellspacing="0" in the markup */
-  table {
-      border-collapse: separate;
-      border-spacing: 0;
-  }
+    /* tables still need cellspacing="0" in the markup */
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
 
-  caption,
-  th,
-  td {
-      font-weight: normal;
-      text-align: left;
-  }
+    caption,
+    th,
+    td {
+        font-weight: normal;
+        text-align: left;
+    }
 
-  /* remove possible quote marks (") from <q> & <blockquote> */
-  blockquote:before,
-  blockquote:after,
-  q:before,
-  q:after {
-      content: "";
-  }
+    /* remove possible quote marks (") from <q> & <blockquote> */
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: "";
+    }
 
-  blockquote,
-  q {
-      quotes: """";
-  }
+    blockquote,
+    q {
+        quotes: """";
+    }
 
-  /* Css Reset Ends Here */
+    /* Css Reset Ends Here */
 
-  body {
-      font-family: 'Mulish', sans-serif;
-      background-color: #efefef;
-  }
+    body {
+        font-family: 'Mulish', sans-serif;
+        background-color: #433971;
+        /* background-color: #efefef; */
+        /* background-color: #433971; */
+    }
 
-  header {
-      margin-bottom: 10%;
-      background-color: #7B69C9;
-      height: 70vh;
-  }
+    header {
+        margin-bottom: 10%;
+        background-color: #7B69C9;
+        height: 70vh;
+    }
 
-  header nav {
-      display: flex;
-      justify-content: flex-end;
-      padding-top: 1%;
-      margin-right: 10%;
-      width: 100%;
-      color: #24343b;
-  }
+    header img {
+        width: 40%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
 
-  header nav span {
-      margin-right: 70%;
-  }
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 1%;
+        margin-right: 10%;
+        width: 100%;
+        color: white;
+    }
+    
+    header nav span {
+        margin-right: 70%;
+    }
 
-  header nav a {
-      color: white;
-      font-size: 1.4rem;
-      margin-right: 1%;
-      padding-right: 3%;
-      padding-top: 0.7%;
-  }
+    header nav a {
+        color: white;
+        font-size: 1.4rem;
+        margin-right: 1%;
+        padding-right: 3%;
+        padding-top: 0.5%; 
+        margin-bottom: 1%; 
+    }
 
-  header nav a:last-child {
-      padding: 10px;
-      background-color: #69A7C9;
-      color: white;
-  }
+    header nav a:last-child {
+        padding: 10px;
+        background-color: #69A7C9;
+        color: white;
+    }
 
-  header .team h1 {
-      font-weight: bold;
-      font-size: 6.4rem;
-      /* line-height: 40px; */
-      text-align: center;
-      letter-spacing: 0.1px;
-      color: #373F41;
-  }
-
-  header .box-container .row {
-      display: flex;
-      justify-content: space-around;
-  }
-
-  header .box-container .row-2 {
-      display: flex;
-      justify-content: space-around;
-      margin: 5% 25%;
-  }
-
-  header .box-container .team-box img {
-      height: 300px;
-      width: 270px;
-      border-radius: 5px;
-  }
-
-  /* header .container .team-box .hidden {
-        color: white; 
+    header .team h1 {
         position: absolute;
-        top: 20%;
-        left: 6.5%;
-        transform: translate(-50%, -50%);
-    } */
+        top: 15%;
+        right: 17%;
+        font-weight: bold;
+        font-size: 6.4rem;
+        /* line-height: 40px; */
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: white;
+        /* margin-top: 5%; */
+    }
 
-  /* Footer
 
-        /* footer nav {
-            background-color: #353b3e6c;
-            width: 100%;
-            height: 6vh;
-            display: flex;
-            justify-content: flex-end;
-            margin-top: 30px;
-            margin-right: 5%;
-        }
+    header .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 45%;
+        top: 30%;
+    }
+
+    header .box-container .team-box {
+        text-align: center;
+        width: 30%;
+        margin-bottom: 5%;
+    }
+
+    header .box-container .team-box h2 {
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 50px;
+    }
+
+    header .box-container .team-box h3 {
+        color: white;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    header .box-container .team-box img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+
     
-        footer nav a {
-            color: white;
-            font-weight: 600;
-            font-size: 1.4rem;
-            padding-right: 2%;
-            padding-top: 1.2%; 
-        }
-    
-    
-        footer nav a:last-child {
-            background-color: #7B69C9;
-            color: white;
-            padding: 1.2%;
-        }
-    
-        footer h2 {
-            font-size: 2rem;
-        } */
-  */
