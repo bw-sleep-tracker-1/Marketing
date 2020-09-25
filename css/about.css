@@ -125,7 +125,7 @@
         height: 70vh;
     }
 
-    header nav {
+        header nav {
             display: flex;
             justify-content: flex-end;
             padding-top: 1%;
@@ -154,7 +154,7 @@
         }
         header .cover img {
             width: 35%;
-            margin-left: 2%;
+            margin-left: 10%;
             margin-top: 2%;
         }
 
