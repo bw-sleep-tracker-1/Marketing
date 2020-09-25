@@ -146,11 +146,20 @@
         padding-top: 0.7%;
     }
 
+    header nav a:hover {
+        color: #5B3F8D;
+    }
+
     header nav a:last-child {
         padding: 10px;
         background-color: #69A7C9;
         color: white;
     }
+
+    header nav a:last-child:hover {
+            background-color: #5B3F8D;
+            color: white;
+        }
 
     header img {
         margin-left: 10%;
@@ -237,14 +246,14 @@
         right: 5%;
         bottom: -80%;
         width: 45%;
-        height:auto;
+        height: auto;
     }
 
     .testimonials {
         text-align: center;
     }
 
-    .testimonials h2{
+    .testimonials h2 {
         font-weight: bold;
         font-size: 4.4rem;
         line-height: 56px;
@@ -267,14 +276,14 @@
         justify-content: space-around;
     }
 
-    .testimonials .testimonial-boxes .tes-box img{
+    .testimonials .testimonial-boxes .tes-box img {
         width: 50%;
         height: auto;
         border-radius: 100%;
         padding-bottom: 5%;
     }
 
-    .testimonials .testimonial-boxes .tes-box h4{
+    .testimonials .testimonial-boxes .tes-box h4 {
         color: white;
         font-size: 2.5rem;
         font-weight: bold;
@@ -282,7 +291,7 @@
         letter-spacing: 0.3px;
     }
 
-    .testimonials .testimonial-boxes .tes-box p{
+    .testimonials .testimonial-boxes .tes-box p {
         color: white;
         font-size: 1.6rem;
         line-height: 40px;
@@ -326,22 +335,22 @@
         font-size: 2rem;
     }
 
-    @media (max-width: 1024px){
+    @media (max-width: 1024px) {
         @media (max-width: 1024px) {
 
             header {
                 height: 60vh;
             }
-    
+
             header nav {
                 padding-top: 1.5%;
             }
-    
-    
+
+
             header nav span {
                 margin-right: 55%;
             }
-    
+
             header nav a {
                 color: white;
                 font-size: 1.4rem;
@@ -349,74 +358,74 @@
                 padding-right: 3%;
                 padding-top: 1%;
             }
-    
+
             header nav a:last-child {
                 padding: 1%;
                 background-color: #69A7C9;
                 color: white;
             }
-    
+
             header img {
                 margin-left: 5%;
                 margin-top: 10%;
                 width: 40%;
             }
-    
+
             header .content {
                 float: right;
                 margin-right: 2%;
                 margin-top: 25%;
                 width: 45%;
             }
-    
+
             header .content h1 {
                 font-size: 3.3rem;
             }
-    
+
             header .content p {
                 font-size: 1.5rem;
             }
-    
+
             /* Features Section */
-    
-            .feature .content{
+
+            .feature .content {
                 margin-bottom: 0%;
-            } 
+            }
 
             .feature .title h2 {
                 font-size: 3.5rem;
                 margin-left: 5%;
             }
-    
+
             .feature .boxes {
                 width: 65%;
                 margin-left: 5%;
             }
-    
+
             .feature .boxes .box h3 {
                 font-size: 1.6rem;
             }
-    
+
             .feature .boxes .box p {
                 font-size: 1.3rem;
             }
-    
+
             .feature img {
                 bottom: -45%;
                 width: 40%;
             }
-    
+
             /* Testimonial Section */
-    
+
             .testimonial-boxes {
                 margin-bottom: 20%;
             }
-    
+
             .testimonials h2 {
                 font-size: 3.5rem;
-    
+
             }
-    
+
             .testimonials h3 {
                 font-size: 1.6rem;
                 line-height: 22px;
@@ -424,11 +433,11 @@
                 letter-spacing: 0.3px;
                 color: white;
             }
-    
+
             .testimonials .testimonial-boxes .tes-box {
                 width: 27%;
             }
-    
+
             .testimonials .testimonial-boxes .tes-box img {
                 width: 45%;
                 height: auto;
@@ -437,16 +446,17 @@
             .testimonials .testimonial-boxes .tes-box h4 {
                 font-size: 2rem;
             }
-    
+
             .testimonials .testimonial-boxes .tes-box p {
                 font-size: 1.4rem;
             }
+
             /* Footer */
-    
+
             footer nav a {
                 padding-top: 3%;
             }
-    
+
             footer nav a:last-child {
                 padding: 3%;
             }
@@ -466,7 +476,7 @@
         header img {
             margin-left: 1%;
             margin-top: 5%;
-            width: 45%; 
+            width: 45%;
         }
 
         header .content {
@@ -487,7 +497,7 @@
 
         .feature {
             margin-bottom: 15%;
-        } 
+        }
 
         .feature .title h2 {
             font-size: 2.3rem;
@@ -536,7 +546,7 @@
         .testimonials .testimonial-boxes .tes-box h4 {
             font-size: 1.5rem;
             line-height: 30px;
-            margin-bottom:  5%;
+            margin-bottom: 5%;
         }
 
         .testimonials .testimonial-boxes .tes-box p {
@@ -562,12 +572,12 @@
                 height: 78vh;
                 margin-bottom: 40%;
             }
-    
+
             header nav {
                 flex-direction: column;
                 text-align: center;
             }
-    
+
             header nav span {
                 display: none;
             }
@@ -577,45 +587,45 @@
                 font-weight: bold;
                 padding: 2%;
             }
-    
+
             header img {
                 margin-left: 15%;
                 margin-top: 10%;
                 width: 70%;
             }
-    
+
             header .content {
                 margin-top: 10%;
                 width: 80%;
             }
-    
+
             header .content h1 {
                 font-size: 2.3rem;
             }
-    
+
             header .content p {
                 font-size: 1.2rem;
             }
-    
+
             /* Features Section */
-    
+
             .feature {
                 margin-bottom: 20%;
             }
-    
+
             .feature .boxes {
                 margin-top: 10%;
                 width: auto;
                 max-width: 90%;
             }
-    
+
             .feature .boxes .box p {
                 font-size: 1.2rem;
                 width: auto;
             }
 
             /* Testimonial Section */
-    
+
             .testimonial-boxes {
                 flex-direction: column;
             }
@@ -624,19 +634,21 @@
                 margin-top: 5%;
                 height: 25vh;
             }
-    
+
             /* Footer */
-    
+
             footer nav a {
                 font-size: 1.2rem;
                 padding-top: 7%;
                 padding-right: 8%;
             }
-    
+
             footer nav a:last-child {
                 font-size: 1.2rem;
                 padding: 5%;
-                padding-top: 7%; 
+                padding-top: 7%;
             }
         }
-}
+    }
+
+
